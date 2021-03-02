@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=10; IE=11; IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Front End Developer portfolio website.">
+  <meta name="author" content="Hailey Halterman">
+
+  <title>Hailey Halterman</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" /><!-- Favicon -->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <link rel="stylesheet" media="screen" href="assets/css/font-awesome.min.css" /><!-- font-awesome icons stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" /><!-- main stylesheet -->
+  <link rel="stylesheet" media="screen" href="assets/css/animations.css" /><!-- animations stylesheet -->
+
+  <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 340px)" href="assets/css/media_small_320.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 340px) and (max-width: 480px)" href="assets/css/media_small.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 1023px)" href="assets/css/media_medium.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1100px)" href="assets/css/media_large.css" /><!-- mobile stylesheet -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet"><!-- custom typeface -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet"><!-- custom typeface -->
+
+</head>
+
+<body id="body-index">
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#header" class="nav__logo__link"><img class="nav__logo" src="assets/images/logo.png" alt="logo"></a>
+    <span class="hamburger__name">menu</span>
+    <svg width="35px" height="35px" class="nav__hamburger">
+      <path d="M 5 5 L 33 5" class="hamburger"></path>
+      <path d="M 5 15 L 33 15" class="hamburger"></path>
+      <path d="M 5 25 L 33 25" class="hamburger"></path>
+    </svg>
+  </nav>
+  <div class="nav-menu">
+    <div class="nav-menu__cross">
+      <svg width="43px" height="35px">
+        <path d="M 5 5 L 30 29" class="nav-menu__cross-line"></path>
+        <path d="M 5 29 L 30 5" class="nav-menu__cross-line"></path>
+      </svg>
+    </div>
+    <ul class="nav-menu__list">
+      <li class="nav-menu__list-item">
+        <a href="index.html#header" class="nav-menu__link">Home</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="index.html#about" class="nav-menu__link">About</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="index.html#portfolio" class="nav-menu__link">Portfolio</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="index.html#contact" class="nav-menu__link">Contact</a>
+      </li>
+    </ul>
+    <hr class="nav-menu__separator">
+    <p class="nav-menu__text">I am a design fanatic based in Cleveland, Ohio! I love graphic design, web design, and photography. </p>
+    <p class="nav-menu__text">440.225.3656</p>
+    <p class="nav-menu__email">
+      <a href="mailto:hailey.halterman@gmail.com" class="nav-menu__link--email">hailey.halterman@gmail.com</a>
+    </p>
+    <div class="nav-menu__social-btn">
+      <a href="https://github.com/hhalterman" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+      <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+    </div>
+  </div>
+  <!-- Header -->
+  <header class="header" style="visibility: hidden">
+  </header>
+  <!-- Main content -->
+  <main class="main-container">
+    <!-- About -->
+    <section id="about" class="about">
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio" style="margin-top: -340pt">
+      <h1 class="portfolio__title">Web Design & Development Portfolio</h1>
+      <h3 class="portfolio__description">Examples of my latest projects build with HTML, CSS and JavaScript. My
+        portfolio includes design-focused sites and code-heavy sites each featuring a demo and the code.</h3>
+      <div class="portfolio__nav__container">
+        <button class="portfolio__nav__btn" data-btn-name="all-btn">All</button>
+        <button class="portfolio__nav__btn" data-btn-name="websites-btn">Design-Heavy</button>
+        <button class="portfolio__nav__btn" data-btn-name="apps-btn">Code-Heavy</button>
+      </div>
+      <div class="portfolio__items-container">
+        <div class="portfolio__item" data-name="website">
+          <a href="webdev/footprints.html">
+            <img src="assets/images/footprints.png" class="portfolio__item__thumbnail" alt="footprrints">
+            <h2 class="portfolio__item__info">Footprints</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/clicky.html">
+            <img src="assets/images/clicky.png" class="portfolio__item__thumbnail" alt="clicky-game">
+            <h2 class="portfolio__item__info">Clicky Memory Game</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/gif.html">
+            <img src="assets/images/gif.png" class="portfolio__item__thumbnail" alt="gif">
+            <h2 class="portfolio__item__info">GifTastic Webpage</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/train.html">
+            <img src="assets/images/train.png" class="portfolio__item__thumbnail" alt="train scheduler">
+            <h2 class="portfolio__item__info">Train Scheduler</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/liri.html">
+            <img src="assets/images/liri.png" class="portfolio__item__thumbnail" alt="liri-app">
+            <h2 class="portfolio__item__info">LIRI Node App</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/friend.html">
+            <img src="assets/images/friend.png" class="portfolio__item__thumbnail" alt="Friend-finder">
+            <h2 class="portfolio__item__info">Friend Finder</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/burger.html">
+            <img src="assets/images/burger.png" class="portfolio__item__thumbnail" alt="burger-app">
+            <h2 class="portfolio__item__info">Eat the Burger</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/scraper.html">
+            <img src="assets/images/scraper.png" class="portfolio__item__thumbnail" alt="mongo-scraper">
+            <h2 class="portfolio__item__info">Mongo Scraper</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/readient.html">
+            <img src="assets/images/readient.png" class="portfolio__item__thumbnail" alt="readient-game">
+            <h2 class="portfolio__item__info">Readient Google Books App</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+        <div class="portfolio__item" data-name="app">
+          <a href="webdev/routevisor.html">
+            <img src="assets/images/routevisor.png" class="portfolio__item__thumbnail" alt="routevisor">
+            <h2 class="portfolio__item__info">RouteVisor</h2>
+          </a>
+        </div><!-- END portfolio__item -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__info__container">
+        <h2 class="footer__copyright">&copy; Hailey Halterman 2021</h2>
+        <!-- footer navigation -->
+        <ul class="footer-menu__list">
+          <li class="footer-menu__list-item">
+            <a href="index.html#header" class="footer-menu__link">About</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="index.html/#portfolio" class="footer-menu__link">Portfolio</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="index.html/#contact" class="footer-menu__link">Contact</a>
+          </li>
+        </ul>
+        <!-- footer social buttons -->
+        <div class="footer__social-btn">
+          <a href="https://github.com/hhalterman" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+          <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>

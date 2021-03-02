@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=10; IE=11; IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Front End Developer portfolio website.">
+  <meta name="author" content="Hailey Halterman">
+
+  <title>Hailey Halterman</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" /><!-- Favicon -->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <link rel="stylesheet" media="screen" href="assets/css/font-awesome.min.css" /><!-- font-awesome icons stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" /><!-- main stylesheet -->
+  <link rel="stylesheet" media="screen" href="assets/css/animations.css" /><!-- animations stylesheet -->
+
+  <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 340px)" href="assets/css/media_small_320.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 340px) and (max-width: 480px)" href="assets/css/media_small.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 1023px)" href="assets/css/media_medium.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1100px)" href="assets/css/media_large.css" /><!-- mobile stylesheet -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet"><!-- custom typeface -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet"><!-- custom typeface -->
+
+</head>
+
+<body id="body-index">
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#header" class="nav__logo__link"><img class="nav__logo" src="assets/images/logo.png" alt="logo"></a>
+    <span class="hamburger__name">menu</span>
+    <svg width="35px" height="35px" class="nav__hamburger">
+      <path d="M 5 5 L 33 5" class="hamburger"></path>
+      <path d="M 5 15 L 33 15" class="hamburger"></path>
+      <path d="M 5 25 L 33 25" class="hamburger"></path>
+    </svg>
+  </nav>
+  <div class="nav-menu">
+    <div class="nav-menu__cross">
+      <svg width="43px" height="35px">
+        <path d="M 5 5 L 30 29" class="nav-menu__cross-line"></path>
+        <path d="M 5 29 L 30 5" class="nav-menu__cross-line"></path>
+      </svg>
+    </div>
+    <ul class="nav-menu__list">
+      <li class="nav-menu__list-item">
+        <a href="#header" class="nav-menu__link">Home</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="#about" class="nav-menu__link">About</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="#portfolio" class="nav-menu__link">Portfolio</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="#contact" class="nav-menu__link">Contact</a>
+      </li>
+    </ul>
+    <hr class="nav-menu__separator">
+    <p class="nav-menu__text">I am a design fanatic based in Cleveland, Ohio! I love graphic design, web design, and photography. </p>
+    <p class="nav-menu__text">440.225.3656</p>
+    <p class="nav-menu__email">
+      <a href="mailto:hailey.halterman@gmail.com" class="nav-menu__link--email">hailey.halterman@gmail.com</a>
+    </p>
+    <div class="nav-menu__social-btn">
+      <a href="https://github.com/hhalterman" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+      <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+    </div>
+  </div>
+  <!-- Header -->
+  <header id="header" class="header">
+    <h1 class="header__title">Hailey Halterman</h1>
+    <h3 class="header__subtitle">Graphic Designer & Web Developer</h3>
+    <a href="#portfolio" class="header__btn">View portfolio</a>
+  </header>
+  <!-- Main content -->
+  <main class="main-container">
+    <!-- About -->
+    <section id="about" class="about">
+      <h1 class="about__title">Nice to meet you!</h1>
+      <div class="about__info__container">
+        <div class="about__text">
+          <img src="assets/images/h_large.jpg" srcset="assets/images/h_small.jpg 800w,
+                  assets/images/h_medium.jpg 1100w,
+                  assets/images/h_large.jpg 1400w"
+            sizes="100vw" class="about__img__mobile" alt="autor portrait" />
+          <p class="about__text__description">Hello, my name is Hailey. I am a designer in the Cleveland, Ohio area.</p>
+          <p class="about__text__description">  I love graphic design, front-end design, and photography! I am creative and ambitious,
+            ready to tackle anything life has to throw at me. Design and web development help free my creative mind and my attention to detail really comes in handy in this industry. I design and develop websites and web applications using
+            HTML, CSS and JavaScript. I use my toolbelt of Adobe Software for my graphic design needs and you most likely won't find me without my Cannon in hand.</p>
+        </div>
+        <div class="about__img__container">
+          <img src="assets/images/h_large.jpg" srcset="assets/images/h_small.jpg 800w,
+                  assets/images/h_medium.jpg 1100w,
+                  assets/images/h_large.jpg 1400w"
+            sizes="100vw" class="about__img" alt="autor portrait" />
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+      <h1 class="portfolio__title">Portfolio</h1>
+      <h3 class="portfolio__description">Click below to see one of the segments of my portfolio.</h3>
+      <div class="portfolio__nav__container">
+        <button class="portfolio__nav__btn"> <a href="design.html">Graphic Design</a> </button>
+        <button class="portfolio__nav__btn"> <a href="web.html">Web Design & Development</a> </button>
+        <button class="portfolio__nav__btn"> <a href="photography.html">Photography</a> </button>
+        <button class="portfolio__nav__btn"><a href="assets/images/HaltermanResumeWEB2.pdf" target="_blank"> Resume</a></button>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="contact__envelope">
+        <h1 class="contact__title title--white">Let's get in touch</h1>
+        <h2 class="contact__description">I would love to hear from you! Send me an email or connect with me on
+          LinkedIn.</h2>
+        <p class="contact__link">440.225.3656</p><br>
+        <a class="contact__link" href="mailto:hailey.halterman@gmail.com">hailey.halterman@gmail.com</a>
+        <div class="contact__social-btn__container">
+          <a href="https://github.com/hhalterman" target="_blank" class="contact__btn__link">
+            <span class="fa fa-github fa-2x contact__fa-btn"></span>
+            <div class="contact__social-btn"></div>
+          </a>
+          <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank" class="contact__btn__link">
+            <span class="fa fa-linkedin-square fa-2x contact__fa-btn"></span>
+            <div class="contact__social-btn"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__info__container">
+        <h2 class="footer__copyright">&copy; Hailey Halterman 2021</h2>
+        <!-- footer navigation -->
+        <ul class="footer-menu__list">
+          <li class="footer-menu__list-item">
+            <a href="#about" class="footer-menu__link">About</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="#portfolio" class="footer-menu__link">Portfolio</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="#contact" class="footer-menu__link">Contact</a>
+          </li>
+        </ul>
+        <!-- footer social buttons -->
+        <div class="footer__social-btn">
+          <a href="https://github.com/hhalterman" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+          <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>

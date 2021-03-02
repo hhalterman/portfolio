@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=10; IE=11; IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Front End Developer portfolio website.">
+  <meta name="author" content="Hailey Halterman">
+
+  <title>Hailey Halterman</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" /><!-- Favicon -->
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <link rel="stylesheet" media="screen" href="assets/css/font-awesome.min.css" /><!-- font-awesome icons stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" /><!-- main stylesheet -->
+  <link rel="stylesheet" media="screen" href="assets/css/animations.css" /><!-- animations stylesheet -->
+
+  <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 340px)" href="assets/css/media_small_320.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 340px) and (max-width: 480px)" href="assets/css/media_small.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 1023px)" href="assets/css/media_medium.css" /><!-- mobile stylesheet -->
+  <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1100px)" href="assets/css/media_large.css" /><!-- mobile stylesheet -->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet"><!-- custom typeface -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet"><!-- custom typeface -->
+
+</head>
+
+<body id="body-index">
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#header" class="nav__logo__link"><img class="nav__logo" src="assets/images/logo.png" alt="logo"></a>
+    <span class="hamburger__name">menu</span>
+    <svg width="35px" height="35px" class="nav__hamburger">
+      <path d="M 5 5 L 33 5" class="hamburger"></path>
+      <path d="M 5 15 L 33 15" class="hamburger"></path>
+      <path d="M 5 25 L 33 25" class="hamburger"></path>
+    </svg>
+  </nav>
+  <div class="nav-menu">
+    <div class="nav-menu__cross">
+      <svg width="43px" height="35px">
+        <path d="M 5 5 L 30 29" class="nav-menu__cross-line"></path>
+        <path d="M 5 29 L 30 5" class="nav-menu__cross-line"></path>
+      </svg>
+    </div>
+    <ul class="nav-menu__list">
+      <li class="nav-menu__list-item">
+        <a href="index.html#header" class="nav-menu__link">Home</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="index.html#about" class="nav-menu__link">About</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="index.html#portfolio" class="nav-menu__link">Portfolio</a>
+      </li>
+      <li class="nav-menu__list-item">
+        <a href="index.html#contact" class="nav-menu__link">Contact</a>
+      </li>
+    </ul>
+    <hr class="nav-menu__separator">
+    <p class="nav-menu__text">I am a design fanatic based in Cleveland, Ohio! I love graphic design, web design, and photography. </p>
+    <p class="nav-menu__text">440.225.3656</p>
+    <p class="nav-menu__email">
+      <a href="mailto:hailey.halterman@gmail.com" class="nav-menu__link--email">hailey.halterman@gmail.com</a>
+    </p>
+    <div class="nav-menu__social-btn">
+      <a href="https://github.com/hhalterman" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+      <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+    </div>
+  </div>
+
+  <header class="header" style="visibility: hidden">
+  </header>
+  <!-- Main content -->
+  <main class="main-container">
+    <!-- Portfolio -->
+    <section id="about" class="about">
+    </section>
+      <!-- Portfolio -->
+      <section id="portfolio" class="portfolio" style="margin-top: -340pt">
+        <h1 class="portfolio__title">Photography Portfolio</h1>
+        <h3 class="portfolio__description">Check out my photography projects below!</h3>
+        <div class="portfolio__items-container">
+          <div class="portfolio__item">
+            <a href="photography/wineglass.html">
+              <img src="assets/images/wineglass.png" class="portfolio__item__thumbnail" alt="Sip of Paradise">
+              <h2 class="portfolio__item__info">Sip of Paradise</h2>
+            </a>
+          </div><!-- END portfolio__item -->
+          <div class="portfolio__item">
+            <a href="photography/pat.html">
+              <img src="assets/images/pat.png" class="portfolio__item__thumbnail" alt="Pat Dailey! Live!">
+              <h2 class="portfolio__item__info">Pat Dailey! Live!</h2>
+            </a>
+          </div><!-- END portfolio__item -->
+          <div class="portfolio__item">
+            <a href="photography/thirsty.html">
+              <img src="assets/images/thirsty.png" class="portfolio__item__thumbnail" alt="Thirsty?">
+              <h2 class="portfolio__item__info">Thirsty?</h2>
+            </a>
+          </div><!-- END portfolio__item -->
+          <div class="portfolio__item">
+            <a href="photography/pizza.html">
+              <img src="assets/images/pizza.png" class="portfolio__item__thumbnail" alt="Pizza">
+              <h2 class="portfolio__item__info">Uncle Joe's Pizza</h2>
+            </a>
+          </div><!-- END portfolio__item -->
+          <div class="portfolio__item">
+            <a href="photography/misc.html">
+              <img src="assets/images/misc.png" class="portfolio__item__thumbnail" alt="other">
+              <h2 class="portfolio__item__info">See my other photos!</h2>
+            </a>
+          </div><!-- END portfolio__item -->
+        </div>
+      </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__info__container">
+        <h2 class="footer__copyright">&copy; Hailey Halterman 2021</h2>
+        <!-- footer navigation -->
+        <ul class="footer-menu__list">
+          <li class="footer-menu__list-item">
+            <a href="index.html#about" class="footer-menu__link">About</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="index.html#portfolio" class="footer-menu__link">Portfolio</a>
+          </li>
+          <li class="footer-menu__list-item">
+            <a href="index.html#contact" class="footer-menu__link">Contact</a>
+          </li>
+        </ul>
+        <!-- footer social buttons -->
+        <div class="footer__social-btn">
+          <a href="https://github.com/hhalterman" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+          <a href="https://www.linkedin.com/in/hailey-halterman" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
